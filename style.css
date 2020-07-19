@@ -13,6 +13,7 @@
     align-items: center;
     border-bottom: 1px solid rgb(187, 186, 186);
     text-decoration-style: solid;
+    font-size: medium;
 }
 
 .company-name {
@@ -21,7 +22,6 @@
 }
 
 a {
-    font-size: medium;
     color:black;
     text-decoration: none;
 }
@@ -42,9 +42,11 @@ a {
     width: 70px;
 }
 
-.pricing {
+.subscription {
     height: 300px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer {
